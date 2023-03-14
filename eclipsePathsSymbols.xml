@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdtprojectproperties>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.IncludePaths">
+<language name="C Source File">
+<includepath>C:\WinAVR-20100110\avr\include</includepath>
+<includepath>C:\WinAVR-20100110\lib\gcc\avr\4.3.3\include</includepath>
+<includepath workspace_path="true">/AvrRTOSDemo/FreeRTOS/user</includepath>
+<includepath workspace_path="true">/AvrRTOSDemo/FreeRTOS/Source/Portable</includepath>
+<includepath workspace_path="true">/AvrRTOSDemo/FreeRTOS/Source/include</includepath>
+<includepath workspace_path="true">/AvrRTOSDemo/FreeRTOS/Source</includepath>
+
+</language>
+<language name="C++ Source File">
+<includepath>C:\WinAVR-20100110\avr\include</includepath>
+<includepath>C:\WinAVR-20100110\avr32\include</includepath>
+<includepath>C:\WinAVR-20100110\lib\gcc\avr\4.3.3\include</includepath>
+<includepath>C:\WinAVR-20100110\lib\gcc\avr32\4.3.2\include</includepath>
+<includepath workspace_path="true">/AvrRTOSDemo/FreeRTOS/user</includepath>
+<includepath workspace_path="true">/AvrRTOSDemo/FreeRTOS/Source/Portable</includepath>
+<includepath workspace_path="true">/AvrRTOSDemo/FreeRTOS/Source/include</includepath>
+<includepath workspace_path="true">/AvrRTOSDemo/FreeRTOS/Source</includepath>
+
+</language>
+<language name="Object File">
+
+</language>
+<language name="Assembly Source File">
+<includepath>C:\WinAVR-20100110\avr\include</includepath>
+<includepath>C:\WinAVR-20100110\lib\gcc\avr\4.3.3\include</includepath>
+<includepath workspace_path="true">/AvrRTOSDemo/FreeRTOS/user</includepath>
+<includepath workspace_path="true">/AvrRTOSDemo/FreeRTOS/Source/Portable</includepath>
+<includepath workspace_path="true">/AvrRTOSDemo/FreeRTOS/Source/include</includepath>
+<includepath workspace_path="true">/AvrRTOSDemo/FreeRTOS/Source</includepath>
+
+</language>
+</section>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.Macros">
+<language name="C Source File">
+<macro>
+<name>MCU</name><value>atmega328p</value>
+</macro>
+<macro>
+<name>F_CPU</name><value>16000000UL</value>
+</macro>
+<macro>
+<name>__AVR_ATmega328P__</name><value>1</value>
+</macro>
+<macro>
+<name>__GNUC__</name><value>4</value>
+</macro>
+<macro>
+<name>__GNUC_MINOR__</name><value>3</value>
+</macro>
+<macro>
+<name>__AVR_ARCH__</name><value>5</value>
+</macro>
+<macro>
+<name>__AVR_MEGA__</name><value>1</value>
+</macro>
+<macro>
+<name>__AVR_HAVE_JMP_CALL__</name><value>1</value>
+</macro>
+<macro>
+<name>__AVR_HAVE_MOVW__</name><value>1</value>
+</macro>
+<macro>
+<name>__AVR_HAVE_LPMX__</name><value>1</value>
+</macro>
+<macro>
+<name>__AVR_HAVE_MUL__</name><value>1</value>
+</macro>
+<macro>
+<name>__AVR_2_BYTE_PC__</name><value>1</value>
+</macro>
+<macro>
+<name>__GNUC_PATCHLEVEL__</name><value>3</value>
+</macro>
+<macro>
+<name>__GNUC_STDC_INLINE__</name><value>1</value>
+</macro>
+<macro>
+<name>__STDC_VERSION__</name><value>199901L</value>
+</macro>
+<macro>
+<name>AVR</name><value>1</value>
+</macro>
+<macro>
+<name>__AVR__</name><value>1</value>
+</macro>
+<macro>
+<name>__VERSION__</name><value>"4.3.3"</value>
+</macro>
+<macro>
+<name>__AVR</name><value>1</value>
+</macro>
+<macro>
+<name>__GXX_ABI_VERSION</name><value>1002</value>
+</macro>
+<macro>
+<name>__STDC__</name><value>1</value>
+</macro>
+<macro>
+<name>__STDC_HOSTED__</name><value>1</value>
+</macro>
+<macro>
+<name>__AVR_ENHANCED__</name><value>1</value>
+</macro>
+
+</language>
+<language name="C++ Source File">
+<macro>
+<name>MCU</name><value>atmega328p</value>
+</macro>
+<macro>
+<name>F_CPU</name><value>16000000UL</value>
+</macro>
+<macro>
+<name>__AVR_ATmega328P__</name><value>1</value>
+</macro>
+<macro>
+<name>__GNUC__</name><value>4</value>
+</macro>
+<macro>
+<name>__GNUC_MINOR__</name><value>3</value>
+</macro>
+<macro>
+<name>__AVR_ARCH__</name><value>5</value>
+</macro>
+<macro>
+<name>__AVR_MEGA__</name><value>1</value>
+</macro>
+<macro>
+<name>__AVR_HAVE_JMP_CALL__</name><value>1</value>
+</macro>
+<macro>
+<name>__AVR_HAVE_MOVW__</name><value>1</value>
+</macro>
+<macro>
+<name>__AVR_HAVE_LPMX__</name><value>1</value>
+</macro>
+<macro>
+<name>__AVR_HAVE_MUL__</name><value>1</value>
+</macro>
+<macro>
+<name>__AVR_2_BYTE_PC__</name><value>1</value>
+</macro>
+<macro>
+<name>__GNUC_PATCHLEVEL__</name><value>3</value>
+</macro>
+<macro>
+<name>__GNUC_STDC_INLINE__</name><value>1</value>
+</macro>
+<macro>
+<name>__STDC_VERSION__</name><value>199901L</value>
+</macro>
+<macro>
+<name>AVR</name><value>1</value>
+</macro>
+<macro>
+<name>__AVR__</name><value>1</value>
+</macro>
+<macro>
+<name>__VERSION__</name><value>"4.3.3"</value>
+</macro>
+<macro>
+<name>__AVR</name><value>1</value>
+</macro>
+<macro>
+<name>__GXX_ABI_VERSION</name><value>1002</value>
+</macro>
+<macro>
+<name>__STDC_HOSTED__</name><value>1</value>
+</macro>
+<macro>
+<name>__AVR_ENHANCED__</name><value>1</value>
+</macro>
+
+</language>
+<language name="Object File">
+
+</language>
+<language name="Assembly Source File">
+
+</language>
+</section>
+</cdtprojectproperties>

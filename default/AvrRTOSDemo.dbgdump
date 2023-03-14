@@ -1,0 +1,276 @@
+ELF Header:
+  Magic:   7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 
+  Class:                             ELF32
+  Data:                              2's complement, little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              EXEC (Executable file)
+  Machine:                           Atmel AVR 8-bit microcontroller
+  Version:                           0x1
+  Entry point address:               0x0
+  Start of program headers:          52 (bytes into file)
+  Start of section headers:          200428 (bytes into file)
+  Flags:                             0x85
+  Size of this header:               52 (bytes)
+  Size of program headers:           32 (bytes)
+  Number of program headers:         3
+  Size of section headers:           40 (bytes)
+  Number of section headers:         15
+  Section header string table index: 12
+
+Section Headers:
+  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al
+  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
+  [ 1] .data             PROGBITS        00800100 000a0c 000028 00  WA  0   0  1
+  [ 2] .text             PROGBITS        00000000 000094 000978 00  AX  0   0  2
+  [ 3] .bss              NOBITS          00800128 000a34 00005f 00  WA  0   0  1
+  [ 4] .debug_aranges    PROGBITS        00000000 000a34 000140 00      0   0  1
+  [ 5] .debug_pubnames   PROGBITS        00000000 000b74 000304 00      0   0  1
+  [ 6] .debug_info       PROGBITS        00000000 000e78 000cec 00      0   0  1
+  [ 7] .debug_abbrev     PROGBITS        00000000 001b64 000737 00      0   0  1
+  [ 8] .debug_line       PROGBITS        00000000 00229b 001563 00      0   0  1
+  [ 9] .debug_frame      PROGBITS        00000000 003800 000300 00      0   0  4
+  [10] .debug_str        PROGBITS        00000000 003b00 00068d 01  MS  0   0  1
+  [11] .debug_macinfo    PROGBITS        00000000 00418d 02ccc7 00      0   0  1
+  [12] .shstrtab         STRTAB          00000000 030e54 000098 00      0   0  1
+  [13] .symtab           SYMTAB          00000000 031144 000d10 10     14 130  4
+  [14] .strtab           STRTAB          00000000 031e54 0006d1 00      0   0  1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings)
+  I (info), L (link order), G (group), x (unknown)
+  O (extra OS processing required) o (OS specific), p (processor specific)
+
+There are no section groups in this file.
+
+Program Headers:
+  Type           Offset   VirtAddr   PhysAddr   FileSiz MemSiz  Flg Align
+  LOAD           0x000094 0x00000000 0x00000000 0x00978 0x00978 R E 0x1
+  LOAD           0x000a0c 0x00800100 0x00000978 0x00028 0x00028 RW  0x1
+  LOAD           0x000a34 0x00800128 0x00800128 0x00000 0x0005f RW  0x1
+
+ Section to Segment mapping:
+  Segment Sections...
+   00     .text 
+   01     .data 
+   02     .bss 
+
+There is no dynamic section in this file.
+
+There are no relocations in this file.
+
+There are no unwind sections in this file.
+
+Symbol table '.symtab' contains 209 entries:
+   Num:    Value  Size Type    Bind   Vis      Ndx Name
+     0: 00000000     0 NOTYPE  LOCAL  DEFAULT  UND 
+     1: 00800100     0 SECTION LOCAL  DEFAULT    1 
+     2: 00000000     0 SECTION LOCAL  DEFAULT    2 
+     3: 00800128     0 SECTION LOCAL  DEFAULT    3 
+     4: 00000000     0 SECTION LOCAL  DEFAULT    4 
+     5: 00000000     0 SECTION LOCAL  DEFAULT    5 
+     6: 00000000     0 SECTION LOCAL  DEFAULT    6 
+     7: 00000000     0 SECTION LOCAL  DEFAULT    7 
+     8: 00000000     0 SECTION LOCAL  DEFAULT    8 
+     9: 00000000     0 SECTION LOCAL  DEFAULT    9 
+    10: 00000000     0 SECTION LOCAL  DEFAULT   10 
+    11: 00000000     0 SECTION LOCAL  DEFAULT   11 
+    12: 00000000     0 FILE    LOCAL  DEFAULT  ABS clock.c
+    13: 0000003f     0 NOTYPE  LOCAL  DEFAULT  ABS __SREG__
+    14: 0000003e     0 NOTYPE  LOCAL  DEFAULT  ABS __SP_H__
+    15: 0000003d     0 NOTYPE  LOCAL  DEFAULT  ABS __SP_L__
+    16: 00000034     0 NOTYPE  LOCAL  DEFAULT  ABS __CCP__
+    17: 00000000     0 NOTYPE  LOCAL  DEFAULT  ABS __tmp_reg__
+    18: 00000001     0 NOTYPE  LOCAL  DEFAULT  ABS __zero_reg__
+    19: 00000000     0 FILE    LOCAL  DEFAULT  ABS dummyDeleteContentsScrap.
+    20: 0000003f     0 NOTYPE  LOCAL  DEFAULT  ABS __SREG__
+    21: 0000003e     0 NOTYPE  LOCAL  DEFAULT  ABS __SP_H__
+    22: 0000003d     0 NOTYPE  LOCAL  DEFAULT  ABS __SP_L__
+    23: 00000034     0 NOTYPE  LOCAL  DEFAULT  ABS __CCP__
+    24: 00000000     0 NOTYPE  LOCAL  DEFAULT  ABS __tmp_reg__
+    25: 00000001     0 NOTYPE  LOCAL  DEFAULT  ABS __zero_reg__
+    26: 00000000     0 FILE    LOCAL  DEFAULT  ABS gpio.c
+    27: 0000003f     0 NOTYPE  LOCAL  DEFAULT  ABS __SREG__
+    28: 0000003e     0 NOTYPE  LOCAL  DEFAULT  ABS __SP_H__
+    29: 0000003d     0 NOTYPE  LOCAL  DEFAULT  ABS __SP_L__
+    30: 00000034     0 NOTYPE  LOCAL  DEFAULT  ABS __CCP__
+    31: 00000000     0 NOTYPE  LOCAL  DEFAULT  ABS __tmp_reg__
+    32: 00000001     0 NOTYPE  LOCAL  DEFAULT  ABS __zero_reg__
+    33: 00000000     0 FILE    LOCAL  DEFAULT  ABS main.c
+    34: 0000003f     0 NOTYPE  LOCAL  DEFAULT  ABS __SREG__
+    35: 0000003e     0 NOTYPE  LOCAL  DEFAULT  ABS __SP_H__
+    36: 0000003d     0 NOTYPE  LOCAL  DEFAULT  ABS __SP_L__
+    37: 00000034     0 NOTYPE  LOCAL  DEFAULT  ABS __CCP__
+    38: 00000000     0 NOTYPE  LOCAL  DEFAULT  ABS __tmp_reg__
+    39: 00000001     0 NOTYPE  LOCAL  DEFAULT  ABS __zero_reg__
+    40: 00000000     0 FILE    LOCAL  DEFAULT  ABS system.c
+    41: 0000003f     0 NOTYPE  LOCAL  DEFAULT  ABS __SREG__
+    42: 0000003e     0 NOTYPE  LOCAL  DEFAULT  ABS __SP_H__
+    43: 0000003d     0 NOTYPE  LOCAL  DEFAULT  ABS __SP_L__
+    44: 00000034     0 NOTYPE  LOCAL  DEFAULT  ABS __CCP__
+    45: 00000000     0 NOTYPE  LOCAL  DEFAULT  ABS __tmp_reg__
+    46: 00000001     0 NOTYPE  LOCAL  DEFAULT  ABS __zero_reg__
+    47: 00000224    32 FUNC    LOCAL  DEFAULT    2 systemResetCheck
+    48: 00000244    36 FUNC    LOCAL  DEFAULT    2 systemConfigure
+    49: 00800128     1 OBJECT  LOCAL  DEFAULT    3 exitSystemReq
+    50: 00800129     2 OBJECT  LOCAL  DEFAULT    3 count1sec_millisec
+    51: 0080012b     2 OBJECT  LOCAL  DEFAULT    3 sysTimePeriod
+    52: 00000000     0 FILE    LOCAL  DEFAULT  ABS terminal.c
+    53: 0000003f     0 NOTYPE  LOCAL  DEFAULT  ABS __SREG__
+    54: 0000003e     0 NOTYPE  LOCAL  DEFAULT  ABS __SP_H__
+    55: 0000003d     0 NOTYPE  LOCAL  DEFAULT  ABS __SP_L__
+    56: 00000034     0 NOTYPE  LOCAL  DEFAULT  ABS __CCP__
+    57: 00000000     0 NOTYPE  LOCAL  DEFAULT  ABS __tmp_reg__
+    58: 00000001     0 NOTYPE  LOCAL  DEFAULT  ABS __zero_reg__
+    59: 0080012d     3 OBJECT  LOCAL  DEFAULT    3 termTxCurrent
+    60: 00800130     3 OBJECT  LOCAL  DEFAULT    3 termRxCurrent
+    61: 00000000     0 FILE    LOCAL  DEFAULT  ABS test.c
+    62: 0000003f     0 NOTYPE  LOCAL  DEFAULT  ABS __SREG__
+    63: 0000003e     0 NOTYPE  LOCAL  DEFAULT  ABS __SP_H__
+    64: 0000003d     0 NOTYPE  LOCAL  DEFAULT  ABS __SP_L__
+    65: 00000034     0 NOTYPE  LOCAL  DEFAULT  ABS __CCP__
+    66: 00000000     0 NOTYPE  LOCAL  DEFAULT  ABS __tmp_reg__
+    67: 00000001     0 NOTYPE  LOCAL  DEFAULT  ABS __zero_reg__
+    68: 00800100     5 OBJECT  LOCAL  DEFAULT    1 testTransmitNullString
+    69: 00800105    23 OBJECT  LOCAL  DEFAULT    1 testTransmitString
+    70: 00800133     1 OBJECT  LOCAL  DEFAULT    3 testStringSize
+    71: 00800174     2 OBJECT  LOCAL  DEFAULT    3 testControl
+    72: 000003bc    46 FUNC    LOCAL  DEFAULT    2 testUartNullString
+    73: 00800176     2 OBJECT  LOCAL  DEFAULT    3 testCallStatus
+    74: 000003ea    56 FUNC    LOCAL  DEFAULT    2 testUartRoString
+    75: 00800134    64 OBJECT  LOCAL  DEFAULT    3 testRxTxBuffer
+    76: 00000000     0 FILE    LOCAL  DEFAULT  ABS timer0systime.c
+    77: 0000003f     0 NOTYPE  LOCAL  DEFAULT  ABS __SREG__
+    78: 0000003e     0 NOTYPE  LOCAL  DEFAULT  ABS __SP_H__
+    79: 0000003d     0 NOTYPE  LOCAL  DEFAULT  ABS __SP_L__
+    80: 00000034     0 NOTYPE  LOCAL  DEFAULT  ABS __CCP__
+    81: 00000000     0 NOTYPE  LOCAL  DEFAULT  ABS __tmp_reg__
+    82: 00000001     0 NOTYPE  LOCAL  DEFAULT  ABS __zero_reg__
+    83: 00800178     1 OBJECT  LOCAL  DEFAULT    3 timerSet
+    84: 00000000     0 FILE    LOCAL  DEFAULT  ABS timer1freqcap.c
+    85: 0000003f     0 NOTYPE  LOCAL  DEFAULT  ABS __SREG__
+    86: 0000003e     0 NOTYPE  LOCAL  DEFAULT  ABS __SP_H__
+    87: 0000003d     0 NOTYPE  LOCAL  DEFAULT  ABS __SP_L__
+    88: 00000034     0 NOTYPE  LOCAL  DEFAULT  ABS __CCP__
+    89: 00000000     0 NOTYPE  LOCAL  DEFAULT  ABS __tmp_reg__
+    90: 00000001     0 NOTYPE  LOCAL  DEFAULT  ABS __zero_reg__
+    91: 00800179     2 OBJECT  LOCAL  DEFAULT    3 captureTime
+    92: 00000000     0 FILE    LOCAL  DEFAULT  ABS uart.c
+    93: 0000003f     0 NOTYPE  LOCAL  DEFAULT  ABS __SREG__
+    94: 0000003e     0 NOTYPE  LOCAL  DEFAULT  ABS __SP_H__
+    95: 0000003d     0 NOTYPE  LOCAL  DEFAULT  ABS __SP_L__
+    96: 00000034     0 NOTYPE  LOCAL  DEFAULT  ABS __CCP__
+    97: 00000000     0 NOTYPE  LOCAL  DEFAULT  ABS __tmp_reg__
+    98: 00000001     0 NOTYPE  LOCAL  DEFAULT  ABS __zero_reg__
+    99: 000005d2    24 FUNC    LOCAL  DEFAULT    2 uartStatusCheck
+   100: 0000084a   108 FUNC    LOCAL  DEFAULT    2 uartTxPollingTask
+   101: 0080017b     1 OBJECT  LOCAL  DEFAULT    3 uartStatRegCopy
+   102: 0080017e     2 OBJECT  LOCAL  DEFAULT    3 uartRxBuffer_Ptr
+   103: 0080017c     1 OBJECT  LOCAL  DEFAULT    3 uartRxBufferIdx
+   104: 0080017d     1 OBJECT  LOCAL  DEFAULT    3 uartRxBufferLength
+   105: 0000075c   132 FUNC    LOCAL  DEFAULT    2 uartRxStart
+   106: 00800182     2 OBJECT  LOCAL  DEFAULT    3 uartTxBuffer_Ptr
+   107: 00800180     1 OBJECT  LOCAL  DEFAULT    3 uartTxBufferIdx
+   108: 00800181     1 OBJECT  LOCAL  DEFAULT    3 uartTxBufferLength
+   109: 00000000     0 FILE    LOCAL  DEFAULT  ABS version.c
+   110: 0000003f     0 NOTYPE  LOCAL  DEFAULT  ABS __SREG__
+   111: 0000003e     0 NOTYPE  LOCAL  DEFAULT  ABS __SP_H__
+   112: 0000003d     0 NOTYPE  LOCAL  DEFAULT  ABS __SP_L__
+   113: 00000034     0 NOTYPE  LOCAL  DEFAULT  ABS __CCP__
+   114: 00000000     0 NOTYPE  LOCAL  DEFAULT  ABS __tmp_reg__
+   115: 00000001     0 NOTYPE  LOCAL  DEFAULT  ABS __zero_reg__
+   116: 00000000     0 FILE    LOCAL  DEFAULT  ABS watchdog.c
+   117: 0000003f     0 NOTYPE  LOCAL  DEFAULT  ABS __SREG__
+   118: 0000003e     0 NOTYPE  LOCAL  DEFAULT  ABS __SP_H__
+   119: 0000003d     0 NOTYPE  LOCAL  DEFAULT  ABS __SP_L__
+   120: 00000034     0 NOTYPE  LOCAL  DEFAULT  ABS __CCP__
+   121: 00000000     0 NOTYPE  LOCAL  DEFAULT  ABS __tmp_reg__
+   122: 00000001     0 NOTYPE  LOCAL  DEFAULT  ABS __zero_reg__
+   123: 00800185     2 OBJECT  LOCAL  DEFAULT    3 debugControl
+   124: 00800184     1 OBJECT  LOCAL  DEFAULT    3 watchdogStatus
+   125: 00000976     0 NOTYPE  LOCAL  DEFAULT    2 __stop_program
+   126: 00000084     0 NOTYPE  LOCAL  DEFAULT    2 .do_copy_data_start
+   127: 00000080     0 NOTYPE  LOCAL  DEFAULT    2 .do_copy_data_loop
+   128: 00000094     0 NOTYPE  LOCAL  DEFAULT    2 .do_clear_bss_start
+   129: 00000092     0 NOTYPE  LOCAL  DEFAULT    2 .do_clear_bss_loop
+   130: 000000a2     0 NOTYPE  WEAK   DEFAULT    2 __vector_22
+   131: 00000696   198 FUNC    GLOBAL DEFAULT    2 uartRxRead
+   132: 000008b6    48 FUNC    GLOBAL DEFAULT    2 watchdogInit
+   133: 000000a2     0 NOTYPE  WEAK   DEFAULT    2 __vector_1
+   134: 00000938    18 FUNC    GLOBAL DEFAULT    2 watchdogStatusGet
+   135: 000004d6    46 FUNC    GLOBAL DEFAULT    2 timer1freqcapInit
+   136: 00000068     0 NOTYPE  GLOBAL DEFAULT    2 __trampolines_start
+   137: 00000978     0 NOTYPE  GLOBAL DEFAULT    2 _etext
+   138: 0080011c    12 OBJECT  GLOBAL DEFAULT    1 version
+   139: 000000a2     0 NOTYPE  WEAK   DEFAULT    2 __vector_24
+   140: 000000a2     0 NOTYPE  WEAK   DEFAULT    2 __vector_12
+   141: 00000284    32 FUNC    GLOBAL DEFAULT    2 terminalTxRequest
+   142: 000000a2     0 NOTYPE  GLOBAL DEFAULT    2 __bad_interrupt
+   143: 000009a0     0 NOTYPE  GLOBAL DEFAULT  ABS __data_load_end
+   144: 0000094a    42 FUNC    GLOBAL DEFAULT    2 __vector_6
+   145: 000000fc    28 FUNC    GLOBAL DEFAULT    2 gpioSetPB1
+   146: 00000268    14 FUNC    GLOBAL DEFAULT    2 terminalInit
+   147: 000001a0   100 FUNC    GLOBAL DEFAULT    2 systemExecution
+   148: 00000068     0 NOTYPE  GLOBAL DEFAULT    2 __trampolines_end
+   149: 000000a2     0 NOTYPE  WEAK   DEFAULT    2 __vector_3
+   150: 000000a6    14 FUNC    GLOBAL DEFAULT    2 clockInit
+   151: 000000de    30 FUNC    GLOBAL DEFAULT    2 gpioTogglePB1
+   152: 000002c4    60 FUNC    GLOBAL DEFAULT    2 testInit
+   153: 000000a2     0 NOTYPE  WEAK   DEFAULT    2 __vector_23
+   154: 00000978     0 NOTYPE  GLOBAL DEFAULT  ABS __data_load_start
+   155: 00000068     0 NOTYPE  GLOBAL DEFAULT    2 __dtors_end
+   156: 00800187     0 NOTYPE  GLOBAL DEFAULT    3 __bss_end
+   157: 00000422    66 FUNC    GLOBAL DEFAULT    2 timer0systimeInit
+   158: 00000118    28 FUNC    GLOBAL DEFAULT    2 gpioClearPB1
+   159: 000000a2     0 NOTYPE  WEAK   DEFAULT    2 __vector_25
+   160: 000000a2     0 NOTYPE  WEAK   DEFAULT    2 __vector_11
+   161: 00000276    14 FUNC    GLOBAL DEFAULT    2 terminalTask
+   162: 00000068     0 NOTYPE  WEAK   DEFAULT    2 __init
+   163: 000000a2     0 NOTYPE  WEAK   DEFAULT    2 __vector_13
+   164: 000000a2     0 NOTYPE  WEAK   DEFAULT    2 __vector_17
+   165: 000000a2     0 NOTYPE  WEAK   DEFAULT    2 __vector_19
+   166: 000000a2     0 NOTYPE  WEAK   DEFAULT    2 __vector_7
+   167: 0000008a     0 NOTYPE  GLOBAL DEFAULT    2 __do_clear_bss
+   168: 00810000     0 NOTYPE  GLOBAL DEFAULT    4 __eeprom_end
+   169: 00000482    26 FUNC    GLOBAL DEFAULT    2 timer0systimeIsSet
+   170: 00000000     0 NOTYPE  GLOBAL DEFAULT    2 __vectors
+   171: 00800128     0 NOTYPE  GLOBAL DEFAULT    1 __data_end
+   172: 0000058a    50 FUNC    GLOBAL DEFAULT    2 uartInit
+   173: 000008e6    82 FUNC    GLOBAL DEFAULT    2 watchdogTask
+   174: 00000204    32 FUNC    GLOBAL DEFAULT    2 __vector_default
+   175: 000000a2     0 NOTYPE  WEAK   DEFAULT    2 __vector_5
+   176: 000000b4    42 FUNC    GLOBAL DEFAULT    2 gpioInit
+   177: 00000068     0 NOTYPE  GLOBAL DEFAULT    2 __ctors_start
+   178: 00000074     0 NOTYPE  GLOBAL DEFAULT    2 __do_copy_data
+   179: 00800128     0 NOTYPE  GLOBAL DEFAULT    3 __bss_start
+   180: 00000134    32 FUNC    GLOBAL DEFAULT    2 main
+   181: 000000a2     0 NOTYPE  WEAK   DEFAULT    2 __vector_4
+   182: 00000504   134 FUNC    GLOBAL DEFAULT    2 timer1MeasureTimePassed
+   183: 00000000     0 NOTYPE  WEAK   DEFAULT  ABS __heap_end
+   184: 000000a2     0 NOTYPE  WEAK   DEFAULT    2 __vector_9
+   185: 000000a2     0 NOTYPE  WEAK   DEFAULT    2 __vector_2
+   186: 000002a4    32 FUNC    GLOBAL DEFAULT    2 terminalRxRequest
+   187: 000000a2     0 NOTYPE  WEAK   DEFAULT    2 __vector_21
+   188: 000000a2     0 NOTYPE  WEAK   DEFAULT    2 __vector_15
+   189: 000007e0   106 FUNC    GLOBAL DEFAULT    2 uartTxWrite
+   190: 00000068     0 NOTYPE  GLOBAL DEFAULT    2 __dtors_start
+   191: 00000068     0 NOTYPE  GLOBAL DEFAULT    2 __ctors_end
+   192: 00000162    62 FUNC    GLOBAL DEFAULT    2 systemInit
+   193: 000008ff     0 NOTYPE  WEAK   DEFAULT  ABS __stack
+   194: 00800128     0 NOTYPE  GLOBAL DEFAULT    1 _edata
+   195: 00800187     0 NOTYPE  GLOBAL DEFAULT    4 _end
+   196: 000000a2     0 NOTYPE  WEAK   DEFAULT    2 __vector_8
+   197: 00000974     0 NOTYPE  WEAK   DEFAULT    2 exit
+   198: 00000300   188 FUNC    GLOBAL DEFAULT    2 testTask
+   199: 00000974     0 NOTYPE  GLOBAL DEFAULT    2 _exit
+   200: 0000049c    58 FUNC    GLOBAL DEFAULT    2 __vector_14
+   201: 000000a2     0 NOTYPE  WEAK   DEFAULT    2 __vector_10
+   202: 000005bc    22 FUNC    GLOBAL DEFAULT    2 uartPollingTask
+   203: 000000a2     0 NOTYPE  WEAK   DEFAULT    2 __vector_16
+   204: 00800100     0 NOTYPE  GLOBAL DEFAULT    1 __data_start
+   205: 000005ea   172 FUNC    GLOBAL DEFAULT    2 __vector_18
+   206: 00000464    30 FUNC    GLOBAL DEFAULT    2 timer0systimeIsTimeReset
+   207: 000000a2     0 NOTYPE  WEAK   DEFAULT    2 __vector_20
+   208: 00000154    14 FUNC    GLOBAL DEFAULT    2 vApplicationIdleHook
+
+No version information found in this file.

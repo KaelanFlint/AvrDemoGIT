@@ -1,0 +1,354 @@
+00000000 W __heap_end
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 T __vectors
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+00000068 00000009 T versionAPP	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/version.c:23
+00000071 00000009 T versionRTOS	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/version.c:28
+0000007a T __ctors_end
+0000007a T __ctors_start
+0000007a T __dtors_end
+0000007a T __dtors_start
+0000007a W __init
+0000007a T __trampolines_end
+0000007a T __trampolines_start
+00000086 T __do_copy_data
+00000092 t .do_copy_data_loop
+00000096 t .do_copy_data_start
+0000009c T __do_clear_bss
+000000a4 t .do_clear_bss_loop
+000000a6 t .do_clear_bss_start
+000000b4 T __bad_interrupt
+000000b4 W __vector_1
+000000b4 W __vector_10
+000000b4 W __vector_11
+000000b4 W __vector_12
+000000b4 W __vector_13
+000000b4 W __vector_15
+000000b4 W __vector_16
+000000b4 W __vector_17
+000000b4 W __vector_19
+000000b4 W __vector_2
+000000b4 W __vector_20
+000000b4 W __vector_21
+000000b4 W __vector_22
+000000b4 W __vector_23
+000000b4 W __vector_24
+000000b4 W __vector_25
+000000b4 W __vector_3
+000000b4 W __vector_4
+000000b4 W __vector_5
+000000b4 W __vector_7
+000000b4 W __vector_8
+000000b4 W __vector_9
+000000b8 0000000e T clockInit	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/clock.c:29
+000000c6 00000012 T digitalIOInit	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/digitalIO.c:21
+000000d8 00000010 T dioToggleLED0	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/digitalIO.c:25
+000000e8 00000010 T dioSetLED0	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/digitalIO.c:29
+000000f8 00000010 T dioClearLED0	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/digitalIO.c:33
+00000108 0000001c T main	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/main.c:29
+00000124 00000058 T vApplicationGetIdleTaskMemory	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/main.c:69
+0000017c 00000058 T vApplicationGetTimerTaskMemory	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/main.c:97
+000001d4 00000022 T vApplicationStackOverflowHook	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/main.c:119
+000001f6 0000000e T vApplicationIdleHook	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/main.c:125
+00000204 0000002a T portsInit	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/ports.c:15
+0000022e 00000010 T portTogglePB1	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/ports.c:45
+0000023e 00000010 T portSetPB1	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/ports.c:49
+0000024e 00000010 T portClearPB1	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/ports.c:53
+0000025e 0000000e T powerInit	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/power.c:19
+0000026c 0000002e T systemInit	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/system.c:64
+0000029a 00000016 T systemExecution	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/system.c:87
+000002b0 0000001a T __vector_default	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/system.c:116
+000002ca 00000034 t systemResetCheck	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/system.c:143
+000002fe 00000024 t systemConfigure	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/system.c:162
+00000322 00000058 T testInit	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/test.c:101
+0000037a 00000036 T testOsTask	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/test.c:115
+000003b0 00000116 T testPeriodicTask	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/test.c:129
+000004c6 00000078 t testThread	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/test.c:197
+0000053e 00000074 t testCommandPeriodic	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/test.c:225
+000005b2 00000112 t testDataGet	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/test.c:268
+000006c4 00000042 T timer0Init	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/timer0.c:61
+00000706 000000d4 T timer0SetHz	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/timer0.c:81
+000007da 0000002e T timer1Init	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/timer1.c:56
+00000808 0000008a T timer1MeasureTimeElapsed	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/timer1.c:76
+00000892 0000001e T timer1MeasureTime2Start	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/timer1.c:91
+000008b0 00000052 T timer1MeasureTime2Elapsed	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/timer1.c:94
+000008ff W __stack
+00000902 00000058 T timer1MeasureTime2Elapsed_uS	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/timer1.c:108
+0000095a 0000007a T uartInit	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/uart.c:137
+000009d4 00000028 T uartOsTask	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/uart.c:160
+000009fc 00000012 T uartPeriodicTask	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/uart.c:172
+00000a0e 000000da t uartStatusCheck	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/uart.c:186
+00000ae8 000000a4 T __vector_18	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/uart.c:258
+00000b8c 0000011c T uartRxRead	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/uart.c:270
+00000ca8 000000f0 T uartTxWrite	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/uart.c:426
+00000d98 0000006e t uartTxThread	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/uart.c:515
+00000e06 00000076 T watchdogInit	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/watchdog.c:191
+00000e7c 00000028 T watchdogOsTask	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/watchdog.c:209
+00000ea4 0000002c T watchdogPeriodicTask	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/watchdog.c:222
+00000ed0 00000012 T watchdogStatusGet	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/watchdog.c:249
+00000ee2 0000002a T __vector_6	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/watchdog.c:265
+00000f0c 000000c8 T xTaskCreateStatic	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:580
+00000fd4 000001ae t prvInitialiseNewTask	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:825
+00001182 000000f0 t prvAddNewTaskToReadyList	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:1069
+00001272 000000e4 T vTaskDelete	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:1155
+00001356 000000e6 T xTaskDelayUntil	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:1251
+0000143c 00000044 T vTaskDelay	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:1337
+00001480 000000d6 T vTaskStartScheduler	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:1988
+00001556 00000018 T vTaskEndScheduler	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:2116
+0000156e 00000018 T vTaskSuspendAll	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:2127
+00001586 0000013c T xTaskResumeAll	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:2211
+000016c2 0000002e T xTaskGetTickCount	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:2322
+000016f0 0000002a T xTaskGetTickCountFromISR	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:2337
+0000171a 00000012 T uxTaskGetNumberOfTasks	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:2368
+0000172c 00000050 T pcTaskGetName	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:2376
+0000177c 00000040 T xTaskCatchUpTicks	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:2628
+000017bc 000001d2 T xTaskIncrementTick	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:2726
+0000198e 00000112 T vTaskSwitchContext	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:3011
+00001aa0 00000044 T vTaskPlaceOnEventList	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:3088
+00001ae4 00000060 T vTaskPlaceOnUnorderedEventList	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:3107
+00001b44 000000d6 T xTaskRemoveFromEventList	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:3166
+00001c1a 000000ba T vTaskRemoveFromUnorderedEventList	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:3235
+00001cd4 0000003c T vTaskSetTimeOutState	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:3283
+00001d10 00000032 T vTaskInternalSetTimeOutState	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:3295
+00001d42 000000ce T xTaskCheckForTimeOut	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:3304
+00001e10 00000014 T vTaskMissedYield	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:3368
+00001e24 00000024 t prvIdleTask	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:3424
+00001e48 0000007a t prvInitialiseTaskLists	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:3649
+00001ec2 0000005e t prvCheckTasksWaitingTermination	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:3681
+00001f20 0000005c t prvTaskCheckFreeStackSpace	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:3845
+00001f7c 00000068 T uxTaskGetStackHighWaterMark	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:3905
+00001fe4 00000018 t prvDeleteTCB	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:3933
+00001ffc 00000044 t prvResetNextTaskUnblockTime	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:3989
+00002040 00000024 T xTaskGetCurrentTaskHandle	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:4012
+00002064 0000013c T xTaskPriorityInherit	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:4057
+000021a0 000000e4 T xTaskPriorityDisinherit	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:4147
+00002284 0000012a T vTaskPriorityDisinheritAfterTimeout	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:4228
+000023ae 0000004e T uxTaskResetEventItemValue	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:4652
+000023fc 00000030 T pvTaskIncrementMutexHeldCount	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:4668
+0000242c 0000016c T ulTaskGenericNotifyTake	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:4687
+00002598 000001ee T xTaskGenericNotifyWait	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:4761
+00002786 0000028a T xTaskGenericNotify	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:4847
+00002a10 000002c0 T xTaskGenericNotifyFromISR	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:4971
+00002cd0 00000162 T vTaskGenericNotifyGiveFromISR	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:5107
+00002e32 00000092 T xTaskGenericNotifyStateClear	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:5195
+00002ec4 00000104 T ulTaskGenericNotifyValueClear	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:5230
+00002fc8 000000cc t prvAddCurrentTaskToDelayedList	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:5265
+00003094 0000010c T xQueueGenericReset	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/queue.c:266
+000031a0 00000066 T xQueueGenericCreateStatic	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/queue.c:325
+00003206 00000076 t prvInitialiseNewQueue	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/queue.c:449
+0000327c 00000048 t prvInitialiseMutex	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/queue.c:493
+000032c4 00000058 T xQueueCreateMutexStatic	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/queue.c:540
+0000331c 00000158 T xQueueGenericSend	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/queue.c:775
+00003474 000000b8 T xQueueGenericSendFromISR	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/queue.c:987
+0000352c 000000a2 T xQueueGiveFromISR	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/queue.c:1152
+000035ce 00000156 T xQueueReceive	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/queue.c:1321
+00003724 000001aa T xQueueSemaphoreTake	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/queue.c:1463
+000038ce 00000164 T xQueuePeek	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/queue.c:1683
+00003a32 000000ae T xQueueReceiveFromISR	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/queue.c:1834
+00003ae0 00000072 T xQueuePeekFromISR	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/queue.c:1928
+00003b52 00000030 T uxQueueMessagesWaiting	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/queue.c:1982
+00003b82 0000004a T uxQueueSpacesAvailable	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/queue.c:1998
+00003bcc 00000034 T uxQueueMessagesWaitingFromISR	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/queue.c:2015
+00003c00 00000026 T vQueueDelete	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/queue.c:2027
+00003c26 00000042 t prvGetDisinheritPriorityAfterTimeout	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/queue.c:2102
+00003c68 00000170 t prvCopyDataToQueue	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/queue.c:2129
+00003dd8 0000008e t prvCopyDataFromQueue	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/queue.c:2211
+00003e66 000000a6 t prvUnlockQueue	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/queue.c:2231
+00003f0c 0000003a t prvIsQueueEmpty	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/queue.c:2351
+00003f46 0000003e T xQueueIsQueueEmptyFromISR	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/queue.c:2372
+00003f84 00000040 t prvIsQueueFull	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/queue.c:2392
+00003fc4 00000044 T xQueueIsQueueFullFromISR	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/queue.c:2413
+00004008 00000054 T vListInitialise	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/list.c:49
+0000405c 00000020 T vListInitialiseItem	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/list.c:74
+0000407c 00000088 T vListInsertEnd	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/list.c:87
+00004104 000000d8 T vListInsert	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/list.c:117
+000041dc 00000098 T uxListRemove	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/list.c:184
+00004274 000000d8 T pxPortInitialiseStack	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/user/port.c:317
+0000434c 0000006a T xPortStartScheduler	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/user/port.c:363
+000043b6 0000000e T vPortEndScheduler	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/user/port.c:379
+000043c4 000000b2 T vPortYield	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/user/port.c:389
+00004476 000000b2 T vPortYieldFromISR	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/user/port.c:403
+00004528 000000ba T vPortYieldFromTick	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/user/port.c:419
+000045e2 00000012 t prvSetupTimerInterrupt	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/user/port.c:447
+000045f4 00000006 T __vector_14	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/user/port.c:468
+000045fa T __udivmodsi4
+00004606 t __udivmodsi4_loop
+00004620 t __udivmodsi4_ep
+0000463e 00000012 T memcpy
+00004650 0000000e T memset
+0000465e 0000001e T strncpy
+0000467c T itoa
+000046be 00000020 T strrev
+000046de T __udivmodhi4
+000046e6 t __udivmodhi4_loop
+000046f4 t __udivmodhi4_ep
+00004706 T _exit
+00004706 W exit
+00004708 t __stop_program
+0000470a A __data_load_start
+0000470a T _etext
+00004776 A __data_load_end
+00800100 D __data_start
+00800100 00000021 D pinport	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/hardware.c:19
+00800121 00000020 d testUartString	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/test.c:48
+0080014e 00000006 d T0REG_CLK_DIV	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/timer0.c:49
+00800154 00000006 d T0_CLK_SHIFT	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/timer0.c:52
+0080015f 00000002 d debugControl	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/watchdog.c:162
+00800165 00000001 D uxTopUsedPriority	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:385
+0080016c B __bss_start
+0080016c D __data_end
+0080016c D _edata
+0080016c 00000032 b uxIdleTaskStack.1581
+0080019e 00000028 b xIdleTaskTCB.1580
+008001c6 00000032 b uxTimerTaskStack.1588
+008001f8 00000028 b xTimerTaskTCB.1587
+00800220 00000001 b exitSystemReq	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/system.c:38
+00800221 00000002 b sysTimePeriod	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/system.c:44
+00800223 00000002 b sysBadCallerAddr_u	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/system.c:52
+00800225 00000001 b testInCommand	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/test.c:54
+00800226 00000001 b testOutDataSize	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/test.c:56
+00800227 00000004 b testTime	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/test.c:45
+0080022b 00000002 b testTimePeriod	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/test.c:46
+0080022d 00000001 b testStringSize	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/test.c:49
+0080022e 00000002 b testControl	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/test.c:51
+00800230 00000002 b testCallStatus	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/test.c:52
+00800232 00000020 b testOutDataBuffer	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/test.c:55
+00800252 0000005b b uctestTaskStack	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/test.c:84
+008002ad 00000028 b xtestTCBBuffer	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/test.c:90
+008002d5 00000001 b testStackLeft	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/test.c:93
+008002d6 00000004 b captureTime	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/timer1.c:50
+008002da 00000002 b captureTime2	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/timer1.c:51
+008002dc 00000001 b rxStatusRegCopy_Async	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/uart.c:64
+008002dd 00000004 b rxData_Async	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/uart.c:65
+008002e1 00000004 b txData_Async	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/uart.c:66
+008002e5 00000001 b uartErrorNo	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/uart.c:68
+008002e6 00000001 b uartStackLeft	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/uart.c:111
+008002e7 00000036 b ucuartTaskStack	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/uart.c:113
+0080031d 00000028 b xuartTCBBuffer	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/uart.c:120
+00800345 00000001 b watchdogStatus	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/watchdog.c:158
+00800346 00000001 b watchdogStackLeft	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/watchdog.c:173
+00800347 00000036 b ucwatchdogTaskStack	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/watchdog.c:175
+0080037d 00000028 b xwatchdogTCBBuffer	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../src/watchdog.c:181
+008003a5 00000002 B pxCurrentTCB	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:338
+008003a7 00000001 b uxDeletedTasksWaitingCleanUp	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:354
+008003a8 00000001 b uxCurrentNumberOfTasks	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:371
+008003a9 00000002 b xTickCount	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:372
+008003ab 00000001 b uxTopReadyPriority	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:373
+008003ac 00000001 b xSchedulerRunning	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:374
+008003ad 00000002 b xPendedTicks	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:375
+008003af 00000001 b xYieldPending	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:376
+008003b0 00000001 b xNumOfOverflows	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:377
+008003b1 00000001 b uxTaskNumber	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:378
+008003b2 00000002 b xNextTaskUnblockTime	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:379
+008003b4 00000002 b xIdleTaskHandle	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:380
+008003b6 00000001 b uxSchedulerSuspended	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:395
+008003b7 00000024 b pxReadyTasksLists	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:344
+008003db 00000009 b xDelayedTaskList1	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:345
+008003e4 00000009 b xDelayedTaskList2	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:346
+008003ed 00000002 b pxDelayedTaskList	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:347
+008003ef 00000002 b pxOverflowDelayedTaskList	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:348
+008003f1 00000009 b xPendingReadyList	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:349
+008003fa 00000009 b xTasksWaitingTermination	Z:\Programming_Workspaces\AVR_Studio\AvrRTOSDemo\default/../FreeRTOS/Source/tasks.c:353
+00800403 B __bss_end
+00800403 N _end
+00810000 N __eeprom_end

@@ -1,0 +1,75 @@
+https://www.freertos.org/Creating-a-new-FreeRTOS-project.html
+
+minimum required:
+    FreeRTOS/Source/tasks.c
+    FreeRTOS/Source/queue.c
+    FreeRTOS/Source/list.c
+    FreeRTOS/Source/portable/[compiler]/[architecture]/port.c.
+    FreeRTOS/Source/portable/MemMang/heap_x.c where 'x' is 1, 2, 3, 4 or 5.
+include dir required:
+    FreeRTOS/Source/include
+    FreeRTOS/Source/portable/[compiler]/[architecture]
+    Whichever directory contains the FreeRTOSConfig.h file to be used*
+
+just for the record the superior [compiler]/[architectore]/port.c/h is in
+Z:\Programming_Workspaces\AVR Studio\AvrRTOSDemo\FreeRTOS\Source\Portable\ThirdParty\GCC\ATmega
+
+optional
+
+    FreeRTOS/Source/timers.c 
+    FreeRTOS/Source/event_groups.c
+    FreeRTOS/Source/stream_buffer.c
+    FreeRTOS/Source/croutine.c
+    
+files.
+
+FreeRTOS seems to use the math.h library
+
+two port/portmacro examples
+
+
+looks like they both target a tick rate of 1kHz
+configTICK_RATE_HZ in FreeRTOSConfig.h
+
+1. ATMEGA323 uses Timer1 for his timer
+his clock is 8MHz and he chose a prescaler of /64 for the timer so it's
+125kHz
+I figured out he wanted something like 16ms intervals/OS ticks, 8ms works though! don't give up buddy!
+
+prvSetupTimerInterrupt
+
+ulCompareMatch of 125? so 1ms timer interval
+using compare match mode, compare match once reach 124 (125-1)
+OCR1AH
+OCR1AL
+clears counter on match (wiht 0x08) and sets prescaler in register as 64 (0x3)
+TCCR1B
+while interrupts are globally disabled, enable compare match A isr (0x10) to
+TIMSK
+
+his ISR is this:
+void TIMER1_COMPA_vect( void ) __attribute__ ( ( signal, naked ) );
+void TIMER1_COMPA_vect( void )
+{
+	vPortYieldFromTick();
+	asm volatile ( "reti" );
+}
+void vPortYieldFromTick( void ) __attribute__ ( ( naked ) );
+void vPortYieldFromTick( void )
+{
+	portSAVE_CONTEXT();
+	if( xTaskIncrementTick() != pdFALSE )
+	{
+		vTaskSwitchContext();
+	}
+	portRESTORE_CONTEXT();
+
+	asm volatile ( "ret" );
+}
+
+2. ATmega GCC gives an example of either using watchdog or Timer0
+2a. watchdog is
+
+
+
+I gather xTaskIncrementTick and vTaskSwitchContext are part of the OS that have to be called by an ISR
